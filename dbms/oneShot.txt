@@ -1,0 +1,20 @@
+
+DBMS ONE SHOT :-
+
+- Database management systems 
+- Data is a collection of raw , unorganised facts and details like text .
+- Data can be recorded and doesen't have any meaning unless processed .
+- Data can be quantitative like age , cost of item and qualitative like name , gender , colour .
+- Information is processed , organised and structured data . 
+- Data is a collection of facts while information puts those facts into context .
+- Database is an electronic place/system where data is stored in a way that it can be easily accessed , managed and updated .
+- To make real use of data we need the database management systems .
+- Database management system is a collection of interrelated data and a set of programs to access those data .
+- The primary goal of a dbms is to provide a way to store and retrive the database information that is both convenient and efficient .
+- Dbms is database itself along with all the software and functionality .
+- It is used to perform the operations like addition , retrival , updation and deletion of the data .
+- Filesystem is also a way to store the data but have major disadvantage over dbms .
+- Those disadvantages are - data redundancy and consistency , difficulty in accessing data , integrity problems , atomicity problems , concurrent-access anomalies and security problems .
+- Abose are also the advantages of dbms .
+
+
