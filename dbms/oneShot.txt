@@ -1,6 +1,7 @@
 
 DBMS ONE SHOT :-
 
+- INTRODUCTION TO DBMS
 - Database management systems 
 - Data is a collection of raw , unorganised facts and details like text .
 - Data can be recorded and doesen't have any meaning unless processed .
@@ -15,6 +16,7 @@ DBMS ONE SHOT :-
 - It is used to perform the operations like addition , retrival , updation and deletion of the data .
 - Filesystem is also a way to store the data but have major disadvantage over dbms .
 - Those disadvantages are - data redundancy and consistency , difficulty in accessing data , integrity problems , atomicity problems , concurrent-access anomalies and security problems .
-- Abose are also the advantages of dbms .
+- Above are also the advantages of dbms .
+
 
 
