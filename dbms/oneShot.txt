@@ -18,5 +18,27 @@ DBMS ONE SHOT :-
 - Those disadvantages are - data redundancy and consistency , difficulty in accessing data , integrity problems , atomicity problems , concurrent-access anomalies and security problems .
 - Above are also the advantages of dbms .
 
-
+- DBMS ARCHITECTURE
+- Dbms architecture is a 3 schema architecture also known as view of the data .
+- It provides abstract view of data which hides how data is stored .
+- Major objective is to provide personalized view to the multiple users .
+- Three levels are physical , logical and external or view level/schema .
+- Physical level is the lowest level of abstraction like how data is stored , storage structures , data structure likle n-array tree etc , encryption , security algorithms.
+- Logical/conceptual level defines the design of the db , describes what data and what relationships among data , dba operate the logical level .
+- View level is the highest level which simplifies the user interaction , different view to different end user , also provide security mechanisms to prevent access .
+- The collection of information stored at a particular moment is called the instance of db .
+- Overall design is DB schema , a structural description .
+- Logical schema is most important .
+- Data models provide a way to design db like er model , relationship model , object oriented model , object relationship model etc .
+- Db languages are ddl , dml etc 
+- DDL data definition language is used to specify database schema .
+- DML data manipulation language is used express data queries and updates like retrival , deletion , insertion and updation .
+- Applications use a layer to interact with the db like a host language sql .
+- Dba is db administrator who control the data and programs which access data . 
+- Task of dba include - schema definition , storate and access modification , routine checkups , security patche and updates .
+- Dbms application arhitecture include a client machine which remotly use db and server machine on which db runs .
+- Dbms application architecture include three architectures t1 t2 t3 .
+- T1 architecture is when client , server and db all present in the same machine .
+- T2 architecture is when app is partitioned in 2 components client and server/db , client access data by queries and api's .
+- T3 architecture is when app is partitioned in 3 component client , application server , db , client sent the request to app server and app server intract with db which increase security  , scalability etc . 
 
