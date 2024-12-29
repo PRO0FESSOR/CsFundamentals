@@ -41,4 +41,4 @@ DBMS ONE SHOT :-
 - T1 architecture is when client , server and db all present in the same machine .
 - T2 architecture is when app is partitioned in 2 components client and server/db , client access data by queries and api's .
 - T3 architecture is when app is partitioned in 3 component client , application server , db , client sent the request to app server and app server intract with db which increase security  , scalability etc . 
-
+- T3 architecture advantages are scalability , data integrity and security .
