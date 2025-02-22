@@ -2,6 +2,7 @@
 DBMS ONE SHOT :-
 
 - INTRODUCTION TO DBMS
+
 - Database management systems 
 - Data is a collection of raw , unorganised facts and details like text .
 - Data can be recorded and doesen't have any meaning unless processed .
@@ -19,6 +20,7 @@ DBMS ONE SHOT :-
 - Above are also the advantages of dbms .
 
 - DBMS ARCHITECTURE
+
 - Dbms architecture is a 3 schema architecture also known as view of the data .
 - It provides abstract view of data which hides how data is stored .
 - Major objective is to provide personalized view to the multiple users .
@@ -44,6 +46,7 @@ DBMS ONE SHOT :-
 - T3 architecture advantages are scalability , data integrity and security .
 
 - ENTITY-RELATIONSHIP MODEL
+
 - Data model is a collection of conceptual tools for describing data , data relationship , data semantics and consistancy constraints .
 - Er-Model is a It is a high level data model based on a perception of a real world that consists of a collection of basic objects, called entities and of relationships among these objects.
 - Graphical representation of ER Model is ER diagram, which acts as a blueprint of DB.
@@ -86,16 +89,16 @@ must have some value. Not known, salary attribute value of an employee is null, 
 - Relationships Constraints
 - Mapping Cardinality / Cardinality Ratio
 - Number of entities to which another entity can be associated via a relationship.
-- One to one, Entity in A associates with at most one entity in B, where A & B are entity sets. And an entity of B is associated with at most one entity of A ,E.g., Citizen has Aadhar Card.
-- One to many, Entity in A associated with N entity in B. While entity in B is associated with at most one
-entity in A , e.g., Citizen has Vehicle.
-- Many to one, Entity in A associated with at most one entity in B. While entity in B can be associated with
-N entity in A , e.g., Course taken by Professor.
+- One to one, Entity in A associates with at most one entity in B, where A & B are entity sets. And an entity of B is associated with at most one entity of A ,E.g., Citizen has Aadhar 
+Card.
+- One to many, Entity in A associated with N entity in B. While entity in B is associated with at most one entity in A , e.g., Citizen has Vehicle.
+- Many to one, Entity in A associated with at most one entity in B. While entity in B can be associated with N entity in A , e.g., Course taken by Professor.
 - Many to many, Entity in A associated with N entity in B. While entity in B also associated with N entity in A , Customer buys product ,  Student attend course .
 - Participation Constraints , Aka, Minimum cardinality constraint.
 - Types, Partial & Total Participation.
 - Partial Participation, not all entities are involved in the relationship instance.
-- Total Participation, each entity must be involved in at least one relationship instance , e.g., Customer borrow loan, loan has total participation as it can’t exist without customer entity. And customer has partial participation.
+- Total Participation, each entity must be involved in at least one relationship instance , e.g., Customer borrow loan, loan has total participation as it can’t exist without customer 
+  entity. And customer has partial participation.
 - Weak entity has total participation constraint, but strong may not have total.
 - ER Notations :
 - Reactangle is used for entity . 
@@ -109,3 +112,36 @@ N entity in A , e.g., Course taken by Professor.
 - Diamond with extra bounday is used for weak relationship.
 - Straight line is used for the participation .
 - Two straight line is used for total participation .
+
+- EXTENDED ER FEATURES
+- Specialisation
+- In ER model, we may require to subgroup an entity set into other entity sets that are distinct in some way with other entity sets.
+- Specialisation is splitting up the entity set into further sub entity sets on the basis of their functionalities, specialities and features.
+- It is a Top-Down approach.
+- e.g., Person entity set can be divided into customer, student, employee. Person is superclass and other specialised entity sets are subclasses.
+-  We have “is-a” relationship between superclass and subclass.
+- Depicted by triangle component.
+- Why Specialisation?
+- Certain attributes may only be applicable to a few entities of the parent entity set.
+- DB designer can show the distinctive features of the sub entities.
+- To group such entities we apply Specialisation, to overall refine the DB blueprint.
+- Generalisation
+- It is just a reverse of Specialisation.
+- DB Designer, may encounter certain properties of two entities are overlapping. Designer may consider to make a new generalised entity set. That generalised entity set will be a super 
+class.
+- “is-a” relationship is present between subclass and super class.
+- e.g., Car, Jeep and Bus all have some common attributes, to avoid data repetition for the common attributes. DB designer may consider to Generalise to a new entity set “Vehicle”.
+- It is a Bottom-up approach.
+- Why Generalisation?
+- Makes DB more refined and simpler.
+- Common attributes are not repeated.
+- Attribute Inheritance
+- Both Specialisation and Generalisation, has attribute inheritance.
+- The attributes of higher level entity sets are inherited by lower level entity sets.
+- E.g., Customer & Employee inherit the attributes of Person.
+- Participation Inheritance
+- If a parent entity set participates in a relationship then its child entity sets will also participate in that relationship.
+- Aggregation
+- How to show relationships among relationships? - Aggregation is the technique.
+- Abstraction is applied to treat relationships as higher-level entities. We can call it Abstract entity.
+- Avoid redundancy by aggregating relationship as an entity set itself .
