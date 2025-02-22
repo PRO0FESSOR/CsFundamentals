@@ -1,2 +1,40 @@
 
 INTRERVIEW QUESTIONS :- 
+
+MCQ'S (Different sources)
+
+1: [b]  
+In an Entity-Relationship (ER) diagram, an oval represents:  
+a) Entity  
+b) Attribute  
+c) Relationship  
+d) Primary key  
+
+2: [b]  
+Which normal form is a relation in if it is free of multivalued attributes and partial dependencies?  
+a) First Normal Form (1NF)  
+b) Second Normal Form (2NF)  
+c) Third Normal Form (3NF)  
+d) Boyce-Codd Normal Form (BCNF)  
+
+3: [b]  
+In SQL, which command is used to remove a table and all its data from the database?  
+a) DELETE  
+b) DROP  
+c) TRUNCATE  
+d) REMOVE  
+
+4: [a]  
+Which of the following is a property of a transaction that ensures all operations are completed successfully before saving the changes to the database?  
+a) Atomicity  
+b) Consistency  
+c) Isolation  
+d) Durability  
+
+5: [c]  
+In a relational database, which operation combines tuples from two relations based on a common attribute?  
+a) Selection  
+b) Projection  
+c) Join  
+d) Union
+
